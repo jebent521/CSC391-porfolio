@@ -1,0 +1,45 @@
+/* || GENERAL STYLING */
+body {
+  margin: 0;
+}
+
+/* || UTILITY CLASSES */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* || HEADER */
+header {
+  background-color: darkslategray;
+  padding: 0.5em 2em;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  margin-right: 0.5em;
+}
+
+nav .nav-item {
+  background-color: gray;
+  padding: 8px 4px;
+  margin: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
+
+/* || MAIN CONTENT */
+
+/* || FOOTER */
