@@ -1,8 +1,8 @@
 /* https://coolors.co/454851-73956f-7bae7f-95d7ae-fceff9 */
 :root {
-  --charcoal-blue: hsl(225, 8%, 29%);
-  --charcoal-blue-light1: hsl(225, 8%, 35%);
-  --charcoal-blue-light2: hsl(225, 8%, 40%);
+  --charcoal-blue: #444750;
+  --charcoal-blue-light1: #525660;
+  --charcoal-blue-light2: #5e626e;
   --sage-green: #73956f;
   --muted-teal: #7bae7f;
   --celadon: #95d7ae;
@@ -13,6 +13,11 @@
 body {
   margin: 0;
   background-color: var(--charcoal-blue);
+  color: var(--lavender-blush);
+}
+
+a {
+  color: var(--celadon);
 }
 
 /* || UTILITY CLASSES */
@@ -67,10 +72,15 @@ nav .selected {
   color: var(--charcoal-blue);
 }
 
+header svg {
+  fill: var(--lavender-blush);
+}
+
 /* || MAIN CONTENT */
 main {
   margin: 0 16%;
 }
+
 .card {
   margin: 1rem 0;
   background-color: var(--charcoal-blue-light1);
@@ -78,6 +88,25 @@ main {
   box-shadow: 0 0 10px -3px;
   height: 500px;
   width: 100%;
+}
+
+.card div {
+  margin: 0 2rem;
+}
+
+.container-circle {
+  width: 1400px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%; /* make it a circle */
+  overflow: hidden; /* hide overflowing child content */
+  border: thick solid var(--muted-teal);
+}
+
+.container-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* || FOOTER */
