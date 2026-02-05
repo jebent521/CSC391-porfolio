@@ -1,6 +1,16 @@
+/* https://coolors.co/454851-73956f-7bae7f-95d7ae-fceff9 */
+:root {
+  --charcoal-blue: #454851;
+  --sage-green: #73956f;
+  --muted-teal: #7bae7f;
+  --celadon: #95d7ae;
+  --lavender-blush: #fceff9;
+}
+
 /* || GENERAL STYLING */
 body {
   margin: 0;
+  background-color: var(--charcoal-blue);
 }
 
 /* || UTILITY CLASSES */
@@ -16,7 +26,7 @@ body {
 
 /* || HEADER */
 header {
-  background-color: darkslategray;
+  background-color: var(--sage-green);
   padding: 0.5em 2em;
   color: white;
 }
@@ -30,14 +40,26 @@ header h1 {
   margin-right: 0.5em;
 }
 
+nav .row {
+  list-style: none;
+}
+
 nav .nav-item {
-  background-color: gray;
-  padding: 8px 4px;
+  background-color: var(--muted-teal);
+  padding: 8px 16px;
   margin: 0 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 1px 7px -2px var(--charcoal-blue);
+}
+
+nav .nav-item:hover {
+  background-color: var(--celadon);
+}
+
+nav .selected {
+  background-color: var(--celadon);
+  color: var(--charcoal-blue)
 }
 
 /* || MAIN CONTENT */
