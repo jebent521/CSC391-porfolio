@@ -80,24 +80,38 @@ main {
 }
 
 .card {
+  /* layout */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 1rem 0;
+  padding: 2rem 2rem;
+  column-gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+
+  /* display */
   background-color: var(--charcoal-blue-light1);
   border-radius: 16px;
-  box-shadow: 0 0 10px -3px;
-  height: 500px;
-  width: 100%;
+  box-shadow: 0 0 10px -3px #111111;
 }
 
-.card div {
-  margin: 0 2rem;
+.card-image {
+  aspect-ratio: 1 / 1;
+  overflow: hidden; /* hide overflowing child content */
+  flex: 1 1 0; /* make the image 1/3rd of the card content */
+  min-width: 200px;
+
+  border: thick solid var(--muted-teal);
+}
+
+.card-text {
+  flex: 2 1 0; /* make the text 2/3rd of the card content*/
+  min-width: 200px;
 }
 
 .container-circle {
-  width: 1400px;
-  aspect-ratio: 1 / 1;
   border-radius: 50%; /* make it a circle */
-  overflow: hidden; /* hide overflowing child content */
-  border: thick solid var(--muted-teal);
 }
 
 .container-circle img {
