@@ -1,0 +1,6 @@
+[submodule "CSC391-Adopt-a-Dragon"]
+	path = CSC391-Adopt-a-Dragon
+	url = https://github.com/jebent521/CSC391-Adopt-a-Dragon
+[submodule "CSC391-Altar-Server-Application"]
+	path = CSC391-Altar-Server-Application
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
