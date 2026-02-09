@@ -1,0 +1,185 @@
+/* https://coolors.co/454851-73956f-7bae7f-95d7ae-fceff9 */
+:root {
+  --charcoal-blue: #444750;
+  --charcoal-blue-light1: #525660;
+  --charcoal-blue-light2: #5e626e;
+  --sage-green: #73956f;
+  --muted-teal: #7bae7f;
+  --celadon: #95d7ae;
+  --lavender-blush: #fceff9;
+}
+
+/* || GENERAL STYLING */
+body {
+  margin: 0;
+  background-color: var(--charcoal-blue);
+  color: var(--lavender-blush);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+a {
+  color: var(--celadon);
+}
+a:hover {
+  color: var(--muted-teal);
+}
+a:visited {
+  color: var(--muted-teal);
+}
+
+/* || UTILITY CLASSES */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* || HEADER */
+header {
+  background-color: var(--sage-green);
+  box-shadow: 0 2px 10px -3px var(--charcoal-blue);
+  padding: 0 2em;
+  color: var(--lavender-blush);
+  position: sticky;
+  top: 0;
+}
+
+#title:hover {
+  color: var(--lavender-blush);
+  text-decoration: underline;
+}
+#title:visited {
+  color: var(--lavender-blush);
+}
+
+header a {
+  color: var(--lavender-blush);
+  text-decoration: none;
+}
+header a:hover {
+  color: var(--charcoal-blue);
+}
+header a:visited {
+  color: var(--lavender-blush);
+}
+
+nav .row {
+  list-style: none;
+  justify-content: start;
+  gap: 1em 1em;
+  flex-wrap: wrap;
+}
+
+nav .nav-item {
+  background-color: var(--muted-teal);
+  padding: 8px 16px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 1px 7px -2px var(--charcoal-blue);
+}
+
+nav .nav-item:hover {
+  background-color: var(--celadon);
+}
+
+nav .selected {
+  background-color: var(--celadon);
+  color: var(--charcoal-blue);
+}
+nav .selected:visited {
+  background-color: var(--celadon);
+  color: var(--charcoal-blue);
+}
+
+header svg {
+  fill: var(--lavender-blush);
+}
+
+header svg:hover {
+  fill: var(--charcoal-blue);
+}
+
+/* || MAIN CONTENT */
+main {
+  margin: 0 16%;
+}
+
+.card {
+  /* layout */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 2rem 2rem;
+  column-gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+
+  /* display */
+  background-color: var(--charcoal-blue-light1);
+  border-radius: 16px;
+  box-shadow: 0 0 10px -3px #111111;
+}
+
+.card-image {
+  aspect-ratio: 1 / 1;
+  overflow: hidden; /* hide overflowing child content */
+  flex: 1 1 0; /* make the image 1/3rd of the card content */
+  min-width: 200px;
+
+  border: thick solid var(--muted-teal);
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container-circle {
+  border-radius: 50%; /* make it a circle */
+}
+
+.card-text {
+  flex: 2 1 0; /* make the text 2/3rd of the card content*/
+  min-width: 200px;
+}
+
+/* || FOOTER */
+footer {
+  background-color: var(--sage-green);
+  padding: 1em 2em;
+  color: var(--lavender-blush);
+}
+
+footer a {
+  color: var(--lavender-blush);
+}
+footer a:hover {
+  color: var(--charcoal-blue);
+}
+footer a:visited {
+  color: var(--lavender-blush);
+}
