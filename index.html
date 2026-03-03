@@ -3,6 +3,18 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- Configure "environment variables" for links -->
+    <script src="config.js" defer></script>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("[data-config-href]").forEach((el) => {
+          const key = el.dataset.configHref;
+          el.href = window.APP_CONFIG[key];
+        });
+      });
+    </script>
+
     <meta charset="utf8" />
     <title>Jonah Ebent's Portfolio</title>
   </head>
@@ -85,7 +97,7 @@
         <div class="card">
           <div class="card-text">
             <h2>
-              <a href="CSC391-Altar-Server-Application/index.html"
+              <a data-config-href="fusAltarGuildUrl"
                 >FUS Altar Server's Guild</a
               >
             </h2>
@@ -113,13 +125,13 @@
         <div class="card">
           <div class="card-image">
             <img
-              src="CSC391-Adopt-a-Dragon/assets/logo-v2.png"
+              src="images/flame-and-flight-logo.png"
               alt="Flame and Flight Logo"
             />
           </div>
           <div class="card-text">
             <h2>
-              <a href="CSC391-Adopt-a-Dragon/index.html"
+              <a data-config-href="flameAndFlightUrl"
                 >Flame and Flight Conservancy</a
               >
             </h2>
