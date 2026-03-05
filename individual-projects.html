@@ -3,6 +3,13 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- Configure variables for links -->
+    <script src="config.js" defer></script>
+    <script src="config-substitution.js" defer></script>
+
+    <meta charset="utf8" />
+    <title>Jonah's Individual Projects</title>
   </head>
   <body>
     <header class="row space-between">
@@ -37,10 +44,86 @@
       </a>
     </header>
     <main>
-      <p>
-        Looks like this isn't finished yet. Click
-        <a href="javascript:history.back()">here</a> to go back.
-      </p>
+      <section>
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="images/flame-and-flight-logo.png"
+              alt="Flame and Flight Logo"
+            />
+          </div>
+          <div class="card-text">
+            <h2>
+              <a data-config-href="A01_individualHTML">A01: Individual HTML</a>
+            </h2>
+            <p>
+              In this individual project, I created the initial HTML structure
+              of a webpage for the <em>Flame and Flight Conservancy</em>, a
+              dragon adoption agency that advocates for sustainable stewardship.
+              The page contains an interest form for potential dragon guardians.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-text">
+            <h2>
+              <a href="index.html">A03: Individual Portfolio</a>
+            </h2>
+            <p>
+              In this individual project, I created a portfolio for my Frontend
+              Web Development class. It contains links to both individual and
+              team projects. I am continually updating it as my team and I
+              complete more assignments.
+            </p>
+          </div>
+          <div class="card-image container-circle">
+            <img src="images/DSC_7018.jpg" alt="Jonah Ebent" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-image">
+            <iframe src="pdfs/A05_UI_UX_Testing_Plan.pdf"></iframe>
+          </div>
+          <div class="card-text">
+            <h2>
+              <a href="pdfs/A05_UI_UX_Testing_Plan.pdf"
+                >A05: UI/UX Testing Plan</a
+              >
+            </h2>
+            <p>
+              In this individual assignment, I created a plan for performing
+              user interface and experience testing for the
+              <a
+                href="https://port.franciscan.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                >FUS Port</a
+              >. I will be keeping track of the data I collect using
+              <a
+                href="https://docs.google.com/spreadsheets/d/1D3SkejeGTnvVyn2XWXVjirHVpEjXMAEvhUbPG_-95oo/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google Sheets</a
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <p>Jonah Ebent, 2026</p>
+      <p>
+        <a
+          href="https://github.com/jebent521/jebent521"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Check out my code on GitHub!</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
