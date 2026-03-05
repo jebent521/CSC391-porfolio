@@ -1,6 +1,21 @@
 [submodule "CSC391-Adopt-a-Dragon"]
-	path = CSC391-Adopt-a-Dragon
+	path = submodules/A01_individualHTML
 	url = https://github.com/jebent521/CSC391-Adopt-a-Dragon
 [submodule "CSC391-Altar-Server-Application"]
-	path = CSC391-Altar-Server-Application
+	path = submodules/T01_minHTML
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T02_HTML"]
+	path = submodules/T02_HTML
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T03_minCSS"]
+	path = submodules/T03_minCSS
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T04_minBoot"]
+	path = submodules/T04_CSS
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T05_minBoot"]
+	path = submodules/T05_minBoot
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T06_Bootstrap"]
+	path = submodules/T06_Bootstrap
 	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git

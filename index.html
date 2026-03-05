@@ -4,16 +4,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
 
-    <!-- Configure "environment variables" for links -->
+    <!-- Configure variables for links -->
     <script src="config.js" defer></script>
-    <script defer>
-      document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll("[data-config-href]").forEach((el) => {
-          const key = el.dataset.configHref;
-          el.href = window.APP_CONFIG[key];
-        });
-      });
-    </script>
+    <script src="config-substitution.js" defer></script>
 
     <meta charset="utf8" />
     <title>Jonah Ebent's Portfolio</title>
@@ -97,9 +90,7 @@
         <div class="card">
           <div class="card-text">
             <h2>
-              <a data-config-href="fusAltarGuildUrl"
-                >FUS Altar Server's Guild</a
-              >
+              <a data-config-href="T03_minCSS">FUS Altar Server's Guild</a>
             </h2>
             <p>
               In this <strong>team project</strong>, we created a webpage for
@@ -131,7 +122,7 @@
           </div>
           <div class="card-text">
             <h2>
-              <a data-config-href="flameAndFlightUrl"
+              <a data-config-href="A01_individualHTML"
                 >Flame and Flight Conservancy</a
               >
             </h2>
