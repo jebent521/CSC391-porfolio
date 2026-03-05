@@ -3,6 +3,13 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- Configure variables for links -->
+    <script src="config.js" defer></script>
+    <script src="config-substitution.js" defer></script>
+
+    <meta charset="utf8" />
+    <title>Jonah's Team Projects</title>
   </head>
   <body>
     <header class="row space-between">
@@ -39,10 +46,103 @@
       </a>
     </header>
     <main>
-      <p>
-        Looks like this isn't finished yet. Click
-        <a href="javascript:history.back()">here</a> to go back.
-      </p>
+      <section>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/T01.png" alt="Screenshot of site" />
+          </div>
+          <div class="card-text">
+            <h2>
+              <a data-config-href="T01_minHTML">T01: minHTML</a>
+            </h2>
+            <p>
+              In this team assignment, we began the initial HTML structure of a
+              webpage for the <em>FUS Altar Server Guild</em>. We focused
+              primarily on creating an altar server application form.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-text">
+            <h2>
+              <a data-config-href="T02_HTML">T02: HTML</a>
+            </h2>
+            <p>
+              In this team assignment, we completed the HTML structure of a
+              webpage for the <em>FUS Altar Server Guild</em>. We added an about
+              page and an image gallery.
+            </p>
+          </div>
+          <div class="card-image">
+            <img src="images/T02.png" alt="Screenshot of site" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/T03.png" alt="Screenshot of site" />
+          </div>
+          <div class="card-text">
+            <h2>
+              <a data-config-href="T03_minCSS">T03: minCSS</a>
+            </h2>
+            <p>
+              In this team assignment, we began styling the altar server
+              webpage. We chose colors that fit well for Franciscan University.
+              We chose a medieval-style font for headers and a legible serif
+              font for body text.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-text">
+            <h2>
+              <a data-config-href="T04_CSS">T04: CSS</a>
+            </h2>
+            <p>
+              In this team assignment, we redefined the style fo the altar
+              server webpage. We chose a rounded, gray professional look with
+              3D-style buttons.
+            </p>
+          </div>
+          <div class="card-image">
+            <img src="images/T04.png" alt="Screenshot of site" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card">
+          <div class="card-image">
+            <img src="images/T05.png" alt="Screenshot of site" />
+          </div>
+          <div class="card-text">
+            <h2>
+              <a data-config-href="T05_minBoot">T05: minBoot</a>
+            </h2>
+            <p>
+              In this team assignment, we reworked the HTML of the altar server
+              webpage to leverage bootstrap components, focusing primarily on
+              layout and form and header styling.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <p>Jonah Ebent, 2026</p>
+      <p>
+        <a
+          href="https://github.com/jebent521/jebent521"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Check out my code on GitHub!</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
