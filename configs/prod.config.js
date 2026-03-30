@@ -4,9 +4,9 @@ window.APP_CONFIG = {
   T03_minCSS: "/team3/minCSS",
   T04_CSS: "/team3/CSS",
   T05_minBoot: "/team3/minBoot",
-  // T05_Boot: "/team3/minCSS",
+  T06_Bootstrap: "/team3/Bootstrap",
+  T07_JavaScript: "/team3/JS",
   TeamProject: "/team3/project",
   A01_individualHTML: "HTML",
   A03_individualPortfolio: "#",
-  // A05_testPlan: "testPlan",
 };

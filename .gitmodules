@@ -19,3 +19,6 @@
 [submodule "submodules/T06_Bootstrap"]
 	path = submodules/T06_Bootstrap
 	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T07_JavaScript"]
+	path = submodules/T07_JavaScript
+	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
