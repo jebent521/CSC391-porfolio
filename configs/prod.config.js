@@ -6,6 +6,7 @@ window.APP_CONFIG = {
   T05_minBoot: "/team3/minBoot",
   T06_Bootstrap: "/team3/Bootstrap",
   T07_JavaScript: "/team3/JS",
+  T08_minAI: "/team3/minAI",
   TeamProject: "/team3/project",
   A01_individualHTML: "HTML",
   A03_individualPortfolio: "#",

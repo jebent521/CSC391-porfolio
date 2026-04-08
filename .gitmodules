@@ -22,3 +22,6 @@
 [submodule "submodules/T07_JavaScript"]
 	path = submodules/T07_JavaScript
 	url = https://github.com/jebent521/CSC391-Altar-Server-Application.git
+[submodule "submodules/T08_minAI"]
+	path = submodules/T08_minAI
+	url = https://github.com/jebent521/Nano-The-Gathering

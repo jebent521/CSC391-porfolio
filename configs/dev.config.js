@@ -6,6 +6,7 @@ window.APP_CONFIG = {
   T05_minBoot: "submodules/T05_minBoot",
   T06_Bootstrap: "submodules/T06_Bootstrap",
   T07_JavaScript: "submodules/T07_JavaScript",
+  T08_minAI: "submodules/T08_minAI",
   TeamProject: "submodules/team_project",
   A01_individualHTML: "submodules/A01_individualHTML",
   A03_individualPortfolio: "#",
